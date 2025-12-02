@@ -38,7 +38,7 @@ Inside Codespaces, OpenMC is installed using micromamba:
 ## Instructions
 
 - Before opening a new codespaces/terminal, run startup script: 
-  `source /workspaces/openmc-fusionblanket/start_openmc.sh/`  
+  `source /workspaces/openmc-fusionblanket/start_openmc.sh`  
   This script includes all the commands to reconnect everything which includes:
   1) Enable micromamba
   2) Activate openMC 
@@ -46,15 +46,15 @@ Inside Codespaces, OpenMC is installed using micromamba:
   4) Setting the depletion chain 
 
 - To run depletion tests for each blanket type:
-  1) Go to script folder: `cd /workspaces/openmc-fusionblanket/(ALLOY NAME)_test/`  
-  2) Run the script: `python (ALLOY NAME)_activation_test.py/`
+  1) Go to script folder: `cd /workspaces/openmc-fusionblanket/(ALLOY NAME)_test`  
+  2) Run the script: `python (ALLOY NAME)_activation_test.py`
 
 - To extract activities from depletion results, run analysis script:
-  `python /workspaces/openmc-fusionblanket/analyze_activation/activation_to_ci_per_m3.py/`
+  `python /workspaces/openmc-fusionblanket/analyze_activation/activation_to_ci_per_m3.py`
   Update line 19 and 20 based on blanket type.
 
 - To return to main project folder:
-  `cd /workspaces/openmc-fusionblanket/`
+  `cd /workspaces/openmc-fusionblanket`
 
 - To make new folder:
   `mkdir -p (FOLDER NAME)/`
