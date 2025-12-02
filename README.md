@@ -54,10 +54,10 @@ Inside Codespaces, OpenMC is installed using micromamba:
   Update line 19 and 20 based on blanket type.
 
 - To return to main project folder:
-  cd /workspaces/openmc-fusionblanket
+  `cd /workspaces/openmc-fusionblanket/`
 
 - To make new folder:
-  mkdir -p (FOLDER NAME)
+  `mkdir -p (FOLDER NAME)/`
 
 
 
